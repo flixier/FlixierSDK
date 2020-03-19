@@ -1,6 +1,6 @@
 {
     "name": "@flixier/sdk",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "SDK for integrating Flixier.com into your website",
     "private": false,
     "main": "src/index.js",

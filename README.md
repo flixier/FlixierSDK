@@ -13,7 +13,7 @@ or
 Then just import it and get going :)
 
 ```javascript
-import FlixierSDK from '@flixier/sdk`;
+import FlixierSDK from '@flixier/sdk';
 ```
 
 ### Via `<script>` tag
