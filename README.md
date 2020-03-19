@@ -1,14 +1,18 @@
 # Flixier SDK
 
-## Installation
+## Installation & Usage
 
-Include the `FlixierSDK.[hash].js` file in your app via a `<script>` tag. If your app has a build process - via Webpack for example - you can also import the script just when you need it:
+`$ npm install @flixier/sdk` or `$ yarn add @flixier/sdk`
+```javascript
+import FlixierSDK from '@flixier/sdk`;
+```
 
-`import 'FlixierSDK.[hash].js';`
+You can also add it directly via a `script` tag:
+
+`<script src="[path-to-script]/FlixierSDK.[version].js"></script>` which will create a global object called **FlixierSDK**.
 
 ## API
 
-Including this script will add a global object called `FlixierSDK`.
 
 ### FlixierSDK.button
 
@@ -47,7 +51,7 @@ Returns a function you can use to remove the button from the page.
 #### Example
 
 ```js
-import 'FlixierSDK.[hash].js'
+import 'FlixierSDK.[version].js'
 
 let removeFlixierBtn = window.FlixierSDK.button(document.body, {
     theme: 'white',
