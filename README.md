@@ -2,12 +2,23 @@
 
 ## Installation & Usage
 
-`$ npm install @flixier/sdk` or `$ yarn add @flixier/sdk`
+### Via NPM or YARN
+
+`$ npm install @flixier/sdk` -> if you're using NPM
+
+or
+
+`$ yarn add @flixier/sdk` -> if you're using YARN
+
+Then just import it and get going :)
+
 ```javascript
 import FlixierSDK from '@flixier/sdk`;
 ```
 
-You can also add it directly via a `script` tag:
+### Via `<script>` tag
+
+You can also add it directly in your HTML page via a `script` tag:
 
 `<script src="[path-to-script]/FlixierSDK.[version].js"></script>` which will create a global object called **FlixierSDK**.
 
